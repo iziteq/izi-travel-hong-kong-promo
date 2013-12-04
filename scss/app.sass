@@ -100,7 +100,7 @@ body
 
   .app-block
     height: 600px
-    background-image: url('../images/man.jpg')
+    background-image: url('../images/tour.jpg')
     background-position: 50% 0
     background-repeat: repeat-x
     background-size: cover
@@ -111,9 +111,11 @@ body
     .title
       @extend %large-font
       color: #fff
+      font-weight: normal
+      height: (1.25em * 3)
       margin-top: 105px
       text-align: center
-      height: (1.25em * 3)
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5)
 
       @media #{$small-only}
         height: (1.67em * 3)
@@ -127,9 +129,9 @@ body
         text-align: left
 
       .custom-button
-        background: #fff
+        background: #f5681f
         border-radius: 5px
-        color: #b35e33
+        color: #fff
         display: inline-block
         font-size: em-calc(27px)
         font-weight: 200
@@ -155,9 +157,10 @@ body
       .small-block
         @extend %small-block
         @extend %small-font
+        color: #fff
         margin: 50px 30px 0 30px
         padding: 5px 10px 5px 15px
-        color: #fff
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5)
 
       @media #{$small-only}
         text-align: center

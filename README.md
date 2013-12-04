@@ -1,4 +1,10 @@
-izi-travel-hong-kong-promo
-==========================
+# izi-promo
 
-Static version of Hong Kong Promo Site
+Promo sites
+
+## Apply changes
+
+``` sh
+$ sass scss/app.sass > css/app.css
+$ slimrb index.html.slim > index.html
+```

@@ -18,6 +18,7 @@ body
 
     @media #{$small-only}
       font-size: em-calc(24px)
+      font-weight: 200
       line-height: 1.67em
 
   %small-font
@@ -87,14 +88,15 @@ body
         margin: 5px 0 0 33px
         padding: 5px 10px 5px 15px
         text-align: left
+        width: 320px
 
       @media #{$small-only}
         text-align: center
 
         .small-block
           display: inline-block
-          width: 250px
           margin: 25px 0 0
+          width: 270px
 
   .app-block
     height: 600px
@@ -167,7 +169,7 @@ body
           width: 270px
 
   .talk-block
-    background-color: #c0c0c0 /* delete this line */
+    background-color: #c0c0c0
     background-image: url('../images/light.png')
     background-position: 50% 50%
     background-repeat: no-repeat
@@ -180,11 +182,11 @@ body
     .title
       @extend %large-font
       color: #fff
-      margin-top: 190px
+      margin-top: 205px
       text-align: center
 
       @media #{$small-only}
-        margin-top: 133px
+        margin-top: 137px
         height: (1.67em * 3)
 
       .bold

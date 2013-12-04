@@ -139,6 +139,8 @@ $default-float: left;
 $small-screen: 768px;
 $medium-screen: 1280px;
 $large-screen: 1440px;
+// hack for only small screen
+$small-screen-only: ($small-screen - 1px);
 
 $screen: "only screen";
 $small: "only screen and (min-width: #{$small-screen})";
@@ -147,7 +149,7 @@ $large: "only screen and (min-width: #{$large-screen})";
 $landscape: "only screen and (orientation: landscape)";
 $portrait: "only screen and (orientation: portrait)";
 
-$small-only: "only screen and (max-width: #{$small-screen})";
+$small-only: "only screen and (max-width: #{$small-screen-only})";
 
 //// Cursors
 

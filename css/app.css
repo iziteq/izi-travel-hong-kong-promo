@@ -4810,7 +4810,7 @@ body {
         width: 270px; } }
 .page-hong-kong .app-block {
   height: 600px;
-  background-image: url("../images/man.jpg");
+  background-image: url("../images/tour.jpg");
   background-position: 50% 0;
   background-repeat: repeat-x;
   background-size: cover; }
@@ -4819,9 +4819,11 @@ body {
       height: 400px; } }
   .page-hong-kong .app-block .title {
     color: white;
+    font-weight: normal;
+    height: 3.75em;
     margin-top: 105px;
     text-align: center;
-    height: 3.75em; }
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); }
     @media only screen and (max-width: 767px) {
       .page-hong-kong .app-block .title {
         height: 5.01em;
@@ -4832,9 +4834,9 @@ body {
   .page-hong-kong .app-block .custom-button-wrapper.preview-button {
     text-align: left; }
   .page-hong-kong .app-block .custom-button-wrapper .custom-button {
-    background: white;
+    background: #f5681f;
     border-radius: 5px;
-    color: #b35e33;
+    color: white;
     display: inline-block;
     font-size: 1.6875em;
     font-weight: 200;
@@ -4853,9 +4855,13 @@ body {
       padding: 4px 10px;
       width: 230px; } }
   .page-hong-kong .app-block .small-block-wrapper .small-block {
+    background-color: #00aeef;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    line-height: 1.7em;
     margin: 50px 30px 0 30px;
-    padding: 5px 10px 5px 15px;
-    color: white; }
+    padding: 5px 10px 5px 15px; }
   @media only screen and (max-width: 767px) {
     .page-hong-kong .app-block .small-block-wrapper {
       text-align: center; }
